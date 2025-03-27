@@ -1,12 +1,16 @@
 import pandas as pd
 import glob
+import os
+
+ZIP_CODE = "United States"
  
-files = sorted(glob.glob("data29646_*.csv"))
+files = sorted(glob.glob(f"data/{ZIP_CODE}/*.csv"))
 dfs = []
 for file in files:
-    year = file.split("_")[-1].replace(".csv", "") 
+    year = os.path.splitext(os.path.basename(file))[0]
     df = pd.read_csv(file)
     df['Year'] = int(year)
+    df["Label (Grouping)"] = df["Label (Grouping)"].str.strip()
     dfs.append(df)
  
 combined_df = pd.concat(dfs, ignore_index=True)
@@ -15,17 +19,29 @@ print(combined_df.shape)
  
 income_metrics = [
     "Less than $10,000", 
-    "$10,000 to $14,999", 
+    "    Less than $10,000",
+    "$10,000 to $14,999",
+    "    $10,000 to $14,999",
     "$15,000 to $24,999",
+    "    $15,000 to $24,999",
     "$25,000 to $34,999",
+    "    $25,000 to $34,999",
     "$35,000 to $49,999",
+    "    $35,000 to $49,999",
     "$50,000 to $74,999",
+    "    $50,000 to $74,999",
     "$75,000 to $99,999",
+    "    $75,000 to $99,999",
     "$100,000 to $149,999",
+    "    $100,000 to $149,999",
     "$150,000 to $199,999",
+    "    $150,000 to $199,999",
     "$200,000 or more",
-    "Median income (dollars)", 
-    "Mean income (dollars)"
+    "    $200,000 or more",
+    "Median income (dollars)",
+    "    Median income (dollars)",
+    "Mean income (dollars)",
+    "    Mean income (dollars)"
 ]
  
 filtered_df = combined_df[combined_df["Label (Grouping)"].isin(income_metrics)].copy()
@@ -33,7 +49,8 @@ filtered_df = combined_df[combined_df["Label (Grouping)"].isin(income_metrics)].
 pivoted_df = filtered_df.pivot(
     index="Label (Grouping)", 
     columns="Year", 
-    values="ZCTA5 29646!!Households!!Estimate"
+    # values=f"ZCTA5 {ZIP_CODE}!!Households!!Estimate"
+    values=f"{ZIP_CODE}!!Households!!Estimate"
 )
  
 final_df = pivoted_df.T.reset_index().rename_axis(None, axis=1)
@@ -57,4 +74,4 @@ final_df = final_df.sort_values("Year").reset_index(drop=True)
  
 print(final_df)
  
-final_df.to_csv("cleaned_29646_2011_to_2023.csv", index=False)
+final_df.to_csv(f"data/cleaned_{ZIP_CODE}.csv", index=False)
