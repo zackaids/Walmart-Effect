@@ -49,8 +49,8 @@ filtered_df = combined_df[combined_df["Label (Grouping)"].isin(income_metrics)].
 pivoted_df = filtered_df.pivot(
     index="Label (Grouping)", 
     columns="Year", 
-    # values=f"ZCTA5 {ZIP_CODE}!!Households!!Estimate"
-    values=f"{ZIP_CODE}!!Households!!Estimate"
+    values=f"ZCTA5 {ZIP_CODE}!!Households!!Estimate"
+    # values=f"{ZIP_CODE}!!Households!!Estimate"
 )
  
 final_df = pivoted_df.T.reset_index().rename_axis(None, axis=1)
