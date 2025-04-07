@@ -44,7 +44,7 @@ year = "2005"
 fips = '06037'
 # fips = 45047
 
-series_id = "ENU4504710544-45"
+series_id = "ENU4210110544-45"
 api_key = 'c05795b2cc90416ab359e80a52588bac'
 
 headers = {'Content-type': 'application/json'}
@@ -64,7 +64,13 @@ results = response.json()
 
 data_pts = results["Results"]["series"][0]["data"]
 # print(json.dumps(data_pts, indent=2))
-print(results)
-json_data = json.loads(results.text)
-print(json_data)
+# print(results)
+# json_data = json.loads(results.text)
+# print(json_data)
+
+# df = pd.DataFrame(data_pts)
 # print(df.head())
+# print(df.head())
+
+# 
+
