@@ -53,7 +53,7 @@ def plot_trends(data, outcome, title, model=None):
         data_cf['predicted_actual'] = model.predict(data_cf)
 
         # Estimate treatment effect
-        treatment_effect = model.params['did']
+        treatment_effect = model.params['did[T.True]']
 
         # Generate counterfactual by subtracting DiD effect
         data_cf['counterfactual'] = data_cf['predicted_actual']
