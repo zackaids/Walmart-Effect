@@ -1,0 +1,472 @@
+========== RESULTS FOR ANDROSCOGGIN_COUNTY ==========
+Treatment year: 2001
+----- retail_priv_employment -----
+Control weights:
+  clarke_county: 0.4502
+  franklin_county_ma: 0.3585
+  franklin_county_vt: 0.0980
+  hood_river_county: 0.0871
+  cumberland_county: 0.0038
+  los_angeles_county: 0.0024
+Treatment effects:
+  Average effect (5 years post-treatment): 385.7732
+  Average percent effect: 5.84%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+----- retail_priv_annual_pay -----
+Control weights:
+  clarke_county: 0.4502
+  franklin_county_ma: 0.3585
+  franklin_county_vt: 0.0980
+  hood_river_county: 0.0871
+  cumberland_county: 0.0038
+  los_angeles_county: 0.0024
+Treatment effects:
+  Average effect (5 years post-treatment): 519.1344
+  Average percent effect: 2.81%
+  p-value: 0.1000
+  The effect is not statistically significant.
+----- retail_share_of_private_employment -----
+Control weights:
+  clarke_county: 0.4502
+  franklin_county_ma: 0.3585
+  franklin_county_vt: 0.0980
+  hood_river_county: 0.0871
+  cumberland_county: 0.0038
+  los_angeles_county: 0.0024
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0101
+  Average percent effect: 6.46%
+  p-value: 0.4000
+  The effect is not statistically significant.
+----- retail_relative_wage -----
+Control weights:
+  clarke_county: 0.4502
+  franklin_county_ma: 0.3585
+  franklin_county_vt: 0.0980
+  hood_river_county: 0.0871
+  cumberland_county: 0.0038
+  los_angeles_county: 0.0024
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0026
+  Average percent effect: -0.27%
+  p-value: 0.2000
+  The effect is not statistically significant.
+
+========== RESULTS FOR BERKSHIRE_COUNTY ==========
+Treatment year: 1995
+
+----- retail_priv_employment -----
+Control weights:
+  clarke_county: 0.5642
+  montgomery_county: 0.4165
+  los_angeles_county: 0.0156
+  hood_river_county: 0.0037
+
+Treatment effects:
+  Average effect (5 years post-treatment): -22631.8898
+  Average percent effect: -72.08%
+  p-value: 0.3000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  clarke_county: 0.5642
+  montgomery_county: 0.4165
+  los_angeles_county: 0.0156
+  hood_river_county: 0.0037
+
+Treatment effects:
+  Average effect (5 years post-treatment): -1486.7474
+  Average percent effect: -7.63%
+  p-value: 0.4000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  clarke_county: 0.5642
+  montgomery_county: 0.4165
+  los_angeles_county: 0.0156
+  hood_river_county: 0.0037
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0012
+  Average percent effect: -0.68%
+  p-value: 0.6000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  clarke_county: 0.5642
+  montgomery_county: 0.4165
+  los_angeles_county: 0.0156
+  hood_river_county: 0.0037
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0379
+  Average percent effect: -5.58%
+  p-value: 0.3000
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR CHESHIRE_COUNTY ==========
+Treatment year: 2002
+
+----- retail_priv_employment -----
+Control weights:
+  bennington_county: 0.6122
+  montgomery_county: 0.2228
+  franklin_county_vt: 0.0835
+  cumberland_county: 0.0814
+
+Treatment effects:
+  Average effect (5 years post-treatment): -9795.3531
+  Average percent effect: -64.46%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  bennington_county: 0.6122
+  montgomery_county: 0.2228
+  franklin_county_vt: 0.0835
+  cumberland_county: 0.0814
+
+Treatment effects:
+  Average effect (5 years post-treatment): -1183.6262
+  Average percent effect: -4.70%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  bennington_county: 0.6122
+  montgomery_county: 0.2228
+  franklin_county_vt: 0.0835
+  cumberland_county: 0.0814
+
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0050
+  Average percent effect: 2.77%
+  p-value: 0.1000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  bennington_county: 0.6122
+  montgomery_county: 0.2228
+  franklin_county_vt: 0.0835
+  cumberland_county: 0.0814
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0341
+  Average percent effect: -4.70%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR HALL_COUNTY ==========
+Treatment year: 1994
+
+----- retail_priv_employment -----
+Control weights:
+  hood_river_county: 0.4862
+  montgomery_county: 0.2682
+  clarke_county: 0.1908
+  los_angeles_county: 0.0548
+
+Treatment effects:
+  Average effect (5 years post-treatment): -29006.5413
+  Average percent effect: -82.10%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  hood_river_county: 0.4862
+  montgomery_county: 0.2682
+  clarke_county: 0.1908
+  los_angeles_county: 0.0548
+
+Treatment effects:
+  Average effect (5 years post-treatment): 278.5883
+  Average percent effect: 1.35%
+  p-value: 0.5000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  hood_river_county: 0.4862
+  montgomery_county: 0.2682
+  clarke_county: 0.1908
+  los_angeles_county: 0.0548
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0230
+  Average percent effect: -15.38%
+  p-value: 0.6000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  hood_river_county: 0.4862
+  montgomery_county: 0.2682
+  clarke_county: 0.1908
+  los_angeles_county: 0.0548
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0139
+  Average percent effect: -1.75%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR MADISON_COUNTY ==========
+Treatment year: 1998
+
+----- retail_priv_employment -----
+Control weights:
+  cumberland_county: 0.7407
+  montgomery_county: 0.1570
+  los_angeles_county: 0.1023
+
+Treatment effects:
+  Average effect (5 years post-treatment): -48288.4332
+  Average percent effect: -73.33%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  cumberland_county: 0.7407
+  montgomery_county: 0.1570
+  los_angeles_county: 0.1023
+
+Treatment effects:
+  Average effect (5 years post-treatment): -1830.4220
+  Average percent effect: -8.36%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  cumberland_county: 0.7407
+  montgomery_county: 0.1570
+  los_angeles_county: 0.1023
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0119
+  Average percent effect: -7.54%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  cumberland_county: 0.7407
+  montgomery_county: 0.1570
+  los_angeles_county: 0.1023
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0633
+  Average percent effect: -9.82%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR RUTLAND_COUNTY ==========
+Treatment year: 1997
+
+----- retail_priv_employment -----
+Control weights:
+  franklin_county_ma: 0.6486
+  clarke_county: 0.2552
+  hood_river_county: 0.0961
+
+Treatment effects:
+  Average effect (5 years post-treatment): -472.9993
+  Average percent effect: -10.11%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  franklin_county_ma: 0.6486
+  clarke_county: 0.2552
+  hood_river_county: 0.0961
+
+Treatment effects:
+  Average effect (5 years post-treatment): 287.0310
+  Average percent effect: 1.39%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  franklin_county_ma: 0.6486
+  clarke_county: 0.2552
+  hood_river_county: 0.0961
+
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0171
+  Average percent effect: 11.27%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_relative_wage -----
+Control weights:
+  franklin_county_ma: 0.6486
+  clarke_county: 0.2552
+  hood_river_county: 0.0961
+
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0048
+  Average percent effect: 0.69%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+
+  ========== RESULTS FOR SANGAMON_COUNTY ==========
+Treatment year: 2001
+
+----- retail_priv_employment -----
+Control weights:
+  cumberland_county: 0.6522
+  franklin_county_ma: 0.3478
+
+Treatment effects:
+  Average effect (5 years post-treatment): -5876.2533
+  Average percent effect: -33.91%
+  p-value: 0.4000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  cumberland_county: 0.6522
+  franklin_county_ma: 0.3478
+
+Treatment effects:
+  Average effect (5 years post-treatment): -1990.8121
+  Average percent effect: -8.74%
+  p-value: 0.5000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  cumberland_county: 0.6522
+  franklin_county_ma: 0.3478
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0082
+  Average percent effect: -5.24%
+  p-value: 0.5000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  cumberland_county: 0.6522
+  franklin_county_ma: 0.3478
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0217
+  Average percent effect: -3.24%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+
+  ========== RESULTS FOR SOLANO_COUNTY ==========
+Treatment year: 1993
+
+----- retail_priv_employment -----
+Control weights:
+  bennington_county: 1.0000
+
+Treatment effects:
+  Average effect (5 years post-treatment): 12375.8333
+  Average percent effect: 411.37%
+  p-value: 0.2000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  bennington_county: 1.0000
+
+Treatment effects:
+  Average effect (5 years post-treatment): 2747.6667
+  Average percent effect: 15.97%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  bennington_county: 1.0000
+
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0015
+  Average percent effect: 0.80%
+  p-value: 0.5000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  bennington_county: 1.0000
+
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0100
+  Average percent effect: 1.40%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+
+  ========== RESULTS FOR WASHINGTON_COUNTY ==========
+Treatment year: 2010
+
+----- retail_priv_employment -----
+Control weights:
+  montgomery_county: 0.8106
+  franklin_county_ma: 0.1602
+  cumberland_county: 0.0292
+
+Treatment effects:
+  Average effect (5 years post-treatment): -8431.7033
+  Average percent effect: -22.51%
+  p-value: 0.9000
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Control weights:
+  montgomery_county: 0.8106
+  franklin_county_ma: 0.1602
+  cumberland_county: 0.0292
+
+Treatment effects:
+  Average effect (5 years post-treatment): -2177.1396
+  Average percent effect: -6.96%
+  p-value: 0.6000
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Control weights:
+  montgomery_county: 0.8106
+  franklin_county_ma: 0.1602
+  cumberland_county: 0.0292
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0012
+  Average percent effect: -0.97%
+  p-value: 0.7000
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Control weights:
+  montgomery_county: 0.8106
+  franklin_county_ma: 0.1602
+  cumberland_county: 0.0292
+
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0684
+  Average percent effect: -12.46%
+  p-value: 0.2000
+  The effect is not statistically significant.
+
+
+  
