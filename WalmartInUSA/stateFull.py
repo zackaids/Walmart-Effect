@@ -35,4 +35,4 @@ def replace_states_in_csv(input_file, output_file):
             writer.writerow(row)
 
 # Example usage
-replace_states_in_csv("./WalmartInUSA/WalmartsWithCounty.csv", "./WalmartInUSA/WalmartsWithCountyState.csv")
+replace_states_in_csv("./WalmartsWithCounty.csv", "./WalmartsWithCountyState.csv")
