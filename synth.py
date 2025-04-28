@@ -395,18 +395,52 @@ def main():
         treated_data = treated_data.drop_duplicates(subset=['county_name', 'data_year'], keep='first')
         print(f"Removed duplicates. Treatment data shape now: {treated_data.shape}")
     
-    treated_county = "Androscoggin_County"  # Change this to analyze different counties
+    treated_county = "all"  # Change this to analyze different counties
     
     if treated_county == "all":
         all_results = {}
-        for county, year in treatment_counties.items():
-            print(f"\nAnalyzing {county}...")
-            try:
-                results = analyze_county(county, year, control_data, treated_data, outcome_vars)
-                all_results[county] = results
-                print_results(results, county, year)
-            except Exception as e:
-                print(f"Error analyzing {county}: {e}")
+        # Create a file to save all results
+        with open("all_counties_results.txt", "w") as f:
+            for county, year in treatment_counties.items():
+                print(f"\nAnalyzing {county}...")
+                f.write(f"\n========== RESULTS FOR {county.upper()} ==========\n")
+                f.write(f"Treatment year: {year}\n\n")
+                try:
+                    results = analyze_county(county, year, control_data, treated_data, outcome_vars)
+                    all_results[county] = results
+                    
+                    # Save results to file
+                    for outcome_var, result in results.items():
+                        f.write(f"----- {outcome_var} -----\n")
+                        
+                        f.write("Control weights:\n")
+                        sorted_weights = result['weights'].sort_values(ascending=False)
+                        for county_name, weight in sorted_weights.items():
+                            if weight > 0.001:
+                                f.write(f"  {county_name}: {weight:.4f}\n")
+                        
+                        f.write("\nTreatment effects:\n")
+                        post_treatment = result['treatment_effects'].loc[year:year+5]
+                        avg_effect = post_treatment['effect'].mean()
+                        avg_percent = post_treatment['percent_effect'].mean()
+                        
+                        f.write(f"  Average effect (5 years post-treatment): {avg_effect:.4f}\n")
+                        f.write(f"  Average percent effect: {avg_percent:.2f}%\n")
+                        f.write(f"  p-value: {result['p_value']:.4f}\n")
+                        
+                        if result['p_value'] < 0.05:
+                            f.write("  The effect is statistically significant at the 5% level.\n\n")
+                        elif result['p_value'] < 0.1:
+                            f.write("  The effect is statistically significant at the 10% level.\n\n")
+                        else:
+                            f.write("  The effect is not statistically significant.\n\n")
+                    
+                    # Also print to console
+                    print_results(results, county, year)
+                    
+                except Exception as e:
+                    print(f"Error analyzing {county}: {e}")
+                    f.write(f"Error analyzing {county}: {e}\n\n")
     else:
         treatment_year = treatment_counties[treated_county]
         results = analyze_county(treated_county, treatment_year, control_data, treated_data, outcome_vars)
