@@ -1,5 +1,7 @@
 # Walmart Effect
 
+Research & Report by: **Zack Aidarov & Max Suc**
+
 This is the code for the report that follows the effects of Walmart's entry into 10 different U.S. counties between 1993 and 2010 using the synthetic control method.
 It examines four key retail market indicators:
 * Private Retail Employment
