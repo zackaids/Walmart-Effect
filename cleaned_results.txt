@@ -1,0 +1,320 @@
+
+========== RESULTS FOR ANDROSCOGGIN_COUNTY ==========
+Treatment year: 2001
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 541.0193
+  Average percent effect: 8.37%
+  p-value: 0.8182
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): 1693.9181
+  Average percent effect: 8.51%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0002
+  Average percent effect: 0.14%
+  p-value: 0.6364
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0394
+  Average percent effect: 5.66%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+
+========== RESULTS FOR BERKSHIRE_COUNTY ==========
+Treatment year: 1995
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 549.6907
+  Average percent effect: 6.70%
+  p-value: 0.7273
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): -316.6012
+  Average percent effect: -1.82%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0058
+  Average percent effect: 3.65%
+  p-value: 0.0909
+  The effect is statistically significant at the 10% level.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0046
+  Average percent effect: -0.69%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+
+========== RESULTS FOR CHESHIRE_COUNTY ==========
+Treatment year: 2002
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 540.5294
+  Average percent effect: 11.15%
+  p-value: 0.6364
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): 1328.5145
+  Average percent effect: 5.90%
+  p-value: 0.1818
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0214
+  Average percent effect: 13.12%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0071
+  Average percent effect: 1.13%
+  p-value: 0.2727
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR HALL_COUNTY ==========
+Treatment year: 1994
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 1227.6399
+  Average percent effect: 24.07%
+  p-value: 0.1818
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): 2141.4055
+  Average percent effect: 12.70%
+  p-value: 0.1818
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0052
+  Average percent effect: -3.93%
+  p-value: 0.5455
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0787
+  Average percent effect: 11.44%
+  p-value: 0.3636
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR JACKSON_COUNTY ==========
+Treatment year: 2007
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 926.0758
+  Average percent effect: 7.66%
+  p-value: 0.7273
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): 365.4693
+  Average percent effect: 1.49%
+  p-value: 0.0909
+  The effect is statistically significant at the 10% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0126
+  Average percent effect: -6.09%
+  p-value: 0.7273
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0511
+  Average percent effect: 6.78%
+  p-value: 0.3636
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR MADISON_COUNTY ==========
+Treatment year: 1998
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 2842.1895
+  Average percent effect: 19.31%
+  p-value: 0.2727
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): -191.3608
+  Average percent effect: -0.99%
+  p-value: 0.0909
+  The effect is statistically significant at the 10% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0041
+  Average percent effect: 2.88%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0174
+  Average percent effect: 3.09%
+  p-value: 0.1818
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR RUTLAND_COUNTY ==========
+Treatment year: 1997
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 427.1572
+  Average percent effect: 11.39%
+  p-value: 0.5455
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): 198.1731
+  Average percent effect: 0.88%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0064
+  Average percent effect: 3.87%
+  p-value: 0.0909
+  The effect is statistically significant at the 10% level.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0079
+  Average percent effect: -1.09%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
+
+========== RESULTS FOR SANGAMON_COUNTY ==========
+Treatment year: 2001
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -417.4432
+  Average percent effect: -3.51%
+  p-value: 0.9091
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): -456.7736
+  Average percent effect: -2.08%
+  p-value: 0.5455
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0170
+  Average percent effect: -10.27%
+  p-value: 0.9091
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0199
+  Average percent effect: 3.21%
+  p-value: 0.7273
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR SOLANO_COUNTY ==========
+Treatment year: 1993
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 953.6466
+  Average percent effect: 6.61%
+  p-value: 0.5455
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): -451.4672
+  Average percent effect: -2.24%
+  p-value: 0.6364
+  The effect is not statistically significant.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0026
+  Average percent effect: -1.28%
+  p-value: 0.8182
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): 0.0287
+  Average percent effect: 3.90%
+  p-value: 0.2727
+  The effect is not statistically significant.
+
+
+========== RESULTS FOR WASHINGTON_COUNTY ==========
+Treatment year: 2010
+
+----- retail_priv_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): 5267.3278
+  Average percent effect: 22.15%
+  p-value: 0.3636
+  The effect is not statistically significant.
+
+----- retail_priv_annual_pay -----
+Treatment effects:
+  Average effect (5 years post-treatment): -2097.7503
+  Average percent effect: -6.70%
+  p-value: 0.0909
+  The effect is statistically significant at the 10% level.
+
+----- retail_share_of_private_employment -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0108
+  Average percent effect: -7.90%
+  p-value: 0.6364
+  The effect is not statistically significant.
+
+----- retail_relative_wage -----
+Treatment effects:
+  Average effect (5 years post-treatment): -0.0791
+  Average percent effect: -14.11%
+  p-value: 0.0000
+  The effect is statistically significant at the 5% level.
+
